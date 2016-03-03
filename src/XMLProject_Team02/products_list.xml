@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="products_list.xsl"?>
+<products>
+  <product id="01">
+  <name>Bio-Karotten</name>  
+  <descr>Gesunde und farbechte Karotten. Hier ist sicher nix FAKE!</descr>
+  <quantity>12.00</quantity>
+  <unit>Stück</unit>
+  <priceByUnit>2.95</priceByUnit>
+    <image>carotts.png</image>
+  </product>
+  <product id="01">
+    <name>Bio-Kartoffeln</name>
+    <descr>Gesunde und farbechte Kartoffeln. HMMMM LECKER!</descr>
+    <quantity>50.00</quantity>
+    <unit>Stück</unit>
+    <priceByUnit>1.95</priceByUnit>
+    <image>kartoffeln.png</image>
+  </product>
+  <product id="01">
+    <name>Bio-Eier</name>
+    <descr>Landeier</descr>
+    <quantity>350.00</quantity>
+    <unit>Ei</unit>
+    <priceByUnit>0.95</priceByUnit>
+    <image>eier.png</image>
+  </product>
+<product id="04"><name>Äpfel</name><descr>Gesunde und farbechte Äpfel</descr><quantity>20.00</quantity><unit>Stück</unit><priceByUnit>1.00</priceByUnit><image>aepfel.png</image></product></products>

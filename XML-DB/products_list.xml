@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product id="01">
+  <name>Bio-Karotten</name>  
+  <descr>Gesunde und farbechte Karotten. Hier ist sicher nix FAKE!</descr>
+  <quantity>12.00</quantity>
+  <unit>Stück</unit>
+  <priceByUnit>2.95</priceByUnit>
+  <image>shop_images/carotts.png</image>
+  </product>
+</products>

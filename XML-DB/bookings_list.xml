@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bookings_list.xsd">
+	<booking id="01" fewoid="01">
+		<startdate>2015-01-01</startdate>
+		<enddate>2015-01-05</enddate>
+		<booker>
+			<firstname>Michael</firstname>
+			<lastname>Knight</lastname>
+			<street>Schokoladengasse Ecke abgebissen</street>
+			<sno>5</sno>
+			<zipcode>1234</zipcode>
+			<countrycode>CH</countrycode>
+			<city>Rockcity</city>
+		</booker>
+	</booking>
+</bookings>

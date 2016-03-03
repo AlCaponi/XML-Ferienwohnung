@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="zipcode">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="4"/>
+				<xs:maxLength value="5"/>
+				<xs:whiteSpace value="collapse"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="street" type="xs:string"/>
+	<xs:element name="startdate" type="xs:date"/>
+	<xs:element name="sno" type="xs:byte"/>
+	<xs:element name="lastname" type="xs:string"/>
+	<xs:element name="firstname" type="xs:string"/>
+	<xs:element name="enddate" type="xs:date"/>
+	<xs:element name="countrycode" type="xs:string"/>
+	<xs:element name="city" type="xs:string"/>
+	<xs:element name="bookings">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="booking"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="booking">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="startdate"/>
+				<xs:element ref="enddate"/>
+				<xs:element ref="booker"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:byte" use="required"/>
+			<xs:attribute name="fewoid" type="xs:positiveInteger" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="booker">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="firstname" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="lastname" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="street" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="sno" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="countrycode" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="zipcode" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="city" minOccurs="1" maxOccurs="1"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

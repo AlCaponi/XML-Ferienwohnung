@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="fewo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="object">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="title"></xs:element>
+              <xs:element name="descr"></xs:element>
+              <xs:element name="dim"></xs:element>
+              <xs:element name="rooms"></xs:element>
+              <xs:element name="priceByDay"></xs:element>
+              <xs:element name="images">
+                <xs:complexType>
+                  <xs:sequence maxOccurs="unbounded">
+                    <xs:element name="image"></xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id"></xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

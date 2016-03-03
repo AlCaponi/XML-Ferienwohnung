@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bookings_list.xsl"?>
+<bookings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bookings_list.xsd">
+	<booking id="01" fewoid="01">
+		<startdate>2015-01-01</startdate>
+		<enddate>2015-01-05</enddate>
+		<booker>
+			<firstname>Michael</firstname>
+			<lastname>Knight</lastname>
+			<street>Schokoladengasse Ecke abgebissen</street>
+			<sno>5</sno>
+			<zipcode>1234</zipcode>
+			<countrycode>CH</countrycode>
+			<city>Rockcity</city>
+		</booker>
+	</booking>
+	<booking id="02" fewoid="01">
+		<startdate>2015-01-10</startdate>
+		<enddate>2015-01-15</enddate>
+		<booker>
+			<firstname>Daniel</firstname>
+			<lastname>Schmid</lastname>
+			<street>Ecke abgebissen</street>
+			<sno>9</sno>
+			<zipcode>9876</zipcode>
+			<countrycode>DE</countrycode>
+			<city>Rockcity</city>
+		</booker>
+	</booking>
+	<booking id="03" fewoid="02">
+		<startdate>2015-04-04</startdate>
+		<enddate>2015-05-05</enddate>
+		<booker>
+			<firstname>Hans</firstname>
+			<lastname>Bauer</lastname>
+			<street>Landstrasse</street>
+			<sno>99</sno>
+			<zipcode>8888</zipcode>
+			<countrycode>CH</countrycode>
+			<city>Langnau</city>
+		</booker>
+	</booking>
+	<booking id="04" fewoid="02">
+		<startdate>2015-09-09</startdate>
+		<enddate>2015-09-22</enddate>
+		<booker>
+			<firstname>Martin</firstname>
+			<lastname>Schmidt</lastname>
+			<street>Winkelgasse</street>
+			<sno>123a</sno>
+			<zipcode>12345</zipcode>
+			<countrycode>DE</countrycode>
+			<city>Hogwarts</city>
+		</booker>
+	</booking>
+	<booking id="05" fewoid="01">
+		<startdate>2015-12-12</startdate>
+		<enddate>2015-12-15</enddate>
+		<booker>
+			<firstname>Rainer</firstname>
+			<lastname>Meier</lastname>
+			<street>Hauptstrasse</street>
+			<sno>12</sno>
+			<zipcode>4040</zipcode>
+			<countrycode>CH</countrycode>
+			<city>Basel</city>
+		</booker>
+	</booking>
+	<booking id="08" fewoid="02">
+		<startdate>2015-11-11</startdate>
+		<enddate>2015-12-12</enddate>
+		<booker>
+			<firstname>Rukshan</firstname>
+			<lastname>Srirangarajah</lastname>
+			<street>Maihofstrasse</street>
+			<sno>12</sno>
+			<zipcode>6004</zipcode>
+			<countrycode>CH</countrycode>
+			<city>Luzern</city>
+		</booker>
+	</booking>
+	<booking id="08" fewoid="02"><startdate>2015-11-11</startdate><enddate>2015-12-12</enddate><booker><firstname>Rukshan</firstname><lastname>Srirangarajah</lastname><street>Maihofstrasse</street><sno>12</sno><zipcode>6004</zipcode><countrycode>CH</countrycode><city>Luzern</city></booker></booking><booking id="09" fewoid="03"><startdate>2015-04-20</startdate><enddate>2015-05-11</enddate><booker><firstname>Anton</firstname><lastname>Test</lastname><street>Teststrasse</street><sno>9</sno><zipcode>4478</zipcode><countrycode>CH</countrycode><city>Liestal</city></booker></booking><booking id="10" fewoid="@id"><startdate>2016-01-01</startdate><enddate>2016-02-02</enddate><booker><firstname>FINALFirstname</firstname><lastname>FINALLastname</lastname><street>FINALStreet</street><sno>FINALNumber</sno><zipcode>FINALZip</zipcode><countrycode>FINALCC</countrycode><city>FINALCity</city></booker></booking><booking id="11" fewoid="object/@id"><startdate>2016-07-07</startdate><enddate>2016-08-08</enddate><booker><firstname>Firstname</firstname><lastname>Lastname</lastname><street>Street</street><sno>3</sno><zipcode>3993</zipcode><countrycode>CH</countrycode><city>ajsdfl</city></booker></booking><booking id="13" fewoid="02"><startdate>2017-09-07</startdate><enddate>2017-09-10</enddate><booker><firstname>Test</firstname><lastname>Teste</lastname><street>Testsr</street><sno>34</sno><zipcode>4998</zipcode><countrycode>CH</countrycode><city>Aargau</city></booker></booking></bookings>

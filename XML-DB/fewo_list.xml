@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fewo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="fewo_list.xsd">
+  <object id="01">
+    <title>Ferienwohnung Pilatusblick</title>
+    <descr>Wundervolle 3-Zimmer Wohnung für alle die sich was Wert sind</descr>
+    <dim>90qm</dim>
+    <rooms>3</rooms> 
+    <priceByDay>85.00</priceByDay>
+    <images>
+       <image>fewo_images/test1.png</image>
+       <image>fewo_images/test2.png</image>
+       <image>fewo_images/test3.png</image>
+       <image>fewo_images/test4.png</image>
+       <image>fewo_images/test5.png</image>
+    </images>
+  </object>
+</fewo>
